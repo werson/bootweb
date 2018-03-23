@@ -22,6 +22,7 @@ public class HelloController {
 
     @GetMapping(value = "/version2")
     public String version2(){
+        System.out.println("this is version2");
         return "version2";
     }
 
