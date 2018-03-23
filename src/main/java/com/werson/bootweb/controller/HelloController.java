@@ -12,6 +12,11 @@ public class HelloController {
     @GetMapping(value = "/index")
     public String index(@RequestParam Integer a) {
         System.out.println("index------");
+        return "index";
+    }
+
+    @GetMapping(value = "/hello")
+    public String hello(){
         return "hello";
     }
 
