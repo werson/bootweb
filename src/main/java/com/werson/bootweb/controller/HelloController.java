@@ -20,4 +20,9 @@ public class HelloController {
         return "hello";
     }
 
+    @GetMapping(value = "/version2")
+    public String version2(){
+        return "";
+    }
+
 }
